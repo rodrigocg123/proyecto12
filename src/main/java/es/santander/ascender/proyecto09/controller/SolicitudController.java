@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.RestController;
 import es.santander.ascender.proyecto09.Solicitud;
 
 @RestController
-@RequestMapping("/solicitud")
+@RequestMapping("/rest/solicitud")
 public class SolicitudController {
 
     @PostMapping
