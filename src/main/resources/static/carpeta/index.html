@@ -1,48 +1,63 @@
 <html>
     <head>
-
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Maestro Detalle de Solicitudes</title>
     </head>
     <body>
+
         <h2>Lista de solicitudes</h2>
-    <table border="double">
+
+     <table border="double">
+
         <tr>
             <th>ID</th>
             <th>Fecha</th>
             <th>Estado</th>
             
         </tr>
+
         <tr>
             <td>1</td>
             <td>2024-11-25</td>
             <td>Pendiente</td>
         </tr>
+
         <tr>
             <td>2</td>
             <td>2024-11-26</td>
             <td>Aprobada</td>
         </tr>
+
         <tr>
             <td>3</td>
             <td>2024-11-26</td>
             <td>Rechazada</td>
         </tr>
-    </table>
+
+     </table>
+
         <h2>Detalle de Solicitud</h2>
-    <p>
+
+        <p>
         <label from="Solicitud">ID Solicitud</label>
         <input from="Solicitud" type="text">
-    </p>
-    <p>
+        </p>
+
+        <p>
         <label >Fecha:</label>
         <input from="Solicitud" type="date">
-    </p>
-    <p>
+        </p>
+        
+        <p>
         <label>Estado</label>
         <input from="Estado" type="text">
-    </p>
-    <p>
+        </p>
+
+        <p>
         <label>Descripcion</label><br>
         <textarea rows="4" cols="40" placeholder="Descripcion de solicitud "></textarea>
-    </p>
+        </p>
+        
     </body>
 </html>
